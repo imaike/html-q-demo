@@ -623,7 +623,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
             initialCell: '&swappableStatementCell',
             swappable: '@'
         },
-        templateUrl: 'templates/swappable_statement.html',
+        templateUrl: 'templates/dropEventText.html',
         link: function (scope, element, attrs) {
             // save initial statement in case the binding changes through dom manipulation
             scope.initialStatement = scope.statement();
